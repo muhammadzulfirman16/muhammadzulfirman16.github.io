@@ -1,0 +1,200 @@
+html, body{
+	margin: ;
+	font-size: 13px;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    background-color: #faf9f9e8;
+	
+}
+.header-section {
+	padding-top: 15px;
+	padding-bottom: 70px;
+    position: relative;
+	background: rgba(167, 184, 241, 0.75);
+	border-bottom: 3px solid #000000;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+}
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 60px;
+    font-weight: 700;
+	padding: 25px 25px;
+	color: rgb(24, 22, 22);
+}
+
+
+	/* akhir header */
+	
+	/* section */
+
+	.isi .latar-belakang {
+		min-height: 400px;
+		min-width: 360px;
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 150px;
+		position: relative;
+		color: rgb(0, 0, 0);
+			
+}
+	.latar-belakang h2{
+		text-align: center;
+		font-size: 30px;
+		text-shadow: 2px 2px 5px rgb(31, 28, 28);
+	}
+	.latar-belakang h{
+		line-height: 2;
+		text-align: center;
+		font-size: 5px;
+		text-shadow: 2px 2px 5px rgb(31, 28, 28);
+	}
+	
+	.latar-belakang p {
+		color:rgb(0, 0, 0);
+		font-size: 25px;
+		line-height: 1.5;
+		text-align: center;
+		padding-top: 30px;
+		padding-left: 130px;
+		padding-right: 100px;
+		position: relative;
+    }	
+
+	/* section */
+
+	/* footer */
+	footer{
+		border-top: 3px solid #f50505;
+		text-align: center;
+		font-size: 16px;
+		line-height: 1;
+		color: aliceblue;
+		background-color: black;
+		padding-bottom: 10px;
+	}
+.ajakan{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.ig{
+width: 45px ;
+height: 35px;
+}
+/* akhir footer */
+
+/* akhir index */
+/* GALERI */
+
+.isi_galeri{
+		min-height: 400px;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		text-align: center;
+		position: relative;
+		border-top: 11px solid rgb(6, 36, 100);
+		background-color: rgba(0, 0, 0, 0.6);
+		
+}
+.isi_galeri h1{
+	padding-top: 0px;
+	color: aliceblue;
+	padding-bottom: 50px;
+	font-size: 30px;
+
+}
+
+.isi_galeri img{
+	height: 250px;
+	margin: 5px;
+	border:10px;
+   border-style: solid;
+   border-color: rgb(231, 218, 218);
+   padding: 2px;
+   background: rgb(15, 15, 15);
+	
+	/* margin: 5px;
+    border: 2px solid rgb(12, 11, 11);
+    height: 240px; */
+
+}
+
+/* TUUTUP GALERI */
+/* KONTAK */
+
+.contact-section {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	position: relative;
+	background: rgba(236, 233, 233, 0.65) ;
+	color: rgb(8, 8, 8);
+	font-size: 18px;
+	}
+input{
+	height: 20px;
+}	
+/* ABOUT */
+table {
+	margin: auto;
+	color: #232323;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+table th {
+	border: 1px solid #999;
+	padding: 8px 20px;
+	background: #212121 ;
+	color: #fff;
+	font-weight: normal;
+}
+
+table td:first-child {
+	text-align: left;
+	padding-left: 20px;
+}
+
+table td {
+	border-bottom: 1px solid #999;
+	padding: 8px 20px;
+	text-align: center;
+	background: #fbfbfb;
+}
+
+.private-data-section {
+	position: relative;
+	background: #fe9b17 ;
+	background: -webkit-linear-gradient(bottom, #fa0202 , #fffffe );
+	background: -o-linear-gradient(bottom, #fa0202 , #fffffe );
+	background: -moz-linear-gradient(bottom, #fa0202, #fffffe );
+	background: linear-gradient(bottom, #fa0202, #fffffe );
+}
+
+.private-data-container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 33px 100px;
+}
+
+.private-data-wrap {
+	width: 100%;
+}
+
+.private-data-table {
+	z-index: 1000;
+}
+
+.private-data-table h2 {
+	text-align: center;
+}
+/* table */
